@@ -39,11 +39,12 @@
 
                                                                                                                                                                                             <p>Select an image from your device</p>
 
-                                                                                                                                                                                                        <form id="uploadForm">
+                                                                                                                                                                                                        <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
 
                                                                                                                                                                                                                         <input
                                                                                                                                                                                                                                             type="file"
                                                                                                                                                                                                                                                                 id="imageInput"
+    name="images"
                                                                                                                                                                                                                                                                                     accept="image/jpeg,image/png,image/webp"
                                                                                                                                                                                                                                                                                                         multiple
                                                                                                                                                                                                                                                                                                                             hidden
